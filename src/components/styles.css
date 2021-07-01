@@ -1,0 +1,31 @@
+  .container {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container .imgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0 0 0 ;
+  }
+  
+  .container .imgContainer img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .selected {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  textarea {
+    font-size: 18pt;
+  }
