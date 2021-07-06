@@ -53,7 +53,7 @@ export default function Simple() {
               
         axios({
           method: 'post',
-          url: 'http://127.0.0.1:8000/simplelocal/',
+          url: 'https://python-vqa-api-xueksbf2aa-uc.a.run.app/simplelocal/',
           data: formData,
         })
         .then((val) => {
