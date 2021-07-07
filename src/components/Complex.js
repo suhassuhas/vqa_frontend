@@ -64,7 +64,7 @@ export default function Complex() {
           )       
           axios({
             method: 'post',
-            url: 'https://python-vqa-api-xueksbf2aa-uc.a.run.app/complex/?ques='+new_ques,
+            url: 'https://suhas-api-xueksbf2aa-uc.a.run.app/complex/?ques='+new_ques,
             data: formData,
           })
           .then((val) => {
@@ -85,7 +85,7 @@ export default function Complex() {
           console.log('error')
           axios({
             method: 'post',
-            url: 'https://python-vqa-api-xueksbf2aa-uc.a.run.app/complexlocal/',
+            url: 'https://suhas-api-xueksbf2aa-uc.a.run.app/complexlocal/',
             data: formData,
           })
           .then((val) => {
