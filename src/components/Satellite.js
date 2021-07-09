@@ -53,7 +53,7 @@ export default function Satellite() {
               
         axios({
           method: 'post',
-          url: 'https://suhas-team-xueksbf2aa-el.a.run.app/satellitelocal/',
+          url: 'https://suhas-team-xueksbf2aa-el.a.run.app/satellitelocal',
           data: formData,
         })
         .then((val) => {

@@ -53,7 +53,7 @@ export default function Simple() {
               
         axios({
           method: 'post',
-          url: 'https://suhas-team-xueksbf2aa-el.a.run.app/simplelocal/',
+          url: 'https://suhas-team-xueksbf2aa-el.a.run.app/simplelocal',
           data: formData,
           headers: {"Access-Control-Allow-Origin": "*"}
         })

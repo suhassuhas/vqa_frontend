@@ -89,7 +89,7 @@ export default function Complex() {
           console.log('error')
           axios({
             method: 'post',
-            url: 'https://suhas-team-xueksbf2aa-el.a.run.app/complexlocal/',
+            url: 'https://suhas-team-xueksbf2aa-el.a.run.app/complexlocal',
             data: formData,
             headers: {"Access-Control-Allow-Origin": "*"}
           })
