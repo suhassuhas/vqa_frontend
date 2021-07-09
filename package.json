@@ -27,6 +27,7 @@
       "react-app/jest"
     ]
   },
+  "proxy":"https://suhas-and-team-xueksbf2aa-uc.a.run.app",
   "browserslist": {
     "production": [
       ">0.2%",
