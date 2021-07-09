@@ -64,7 +64,8 @@ export default function Complex() {
           )       
           axios({
             method: 'post',
-            url: 'https://suhas-team-xueksbf2aa-el.a.run.app/complex/?ques='+new_ques,
+            baseURL: 'https://suhas-team-xueksbf2aa-el.a.run.app/',
+            url: '/complex/?ques='+new_ques,
             data: formData,
             headers: {
                 'Access-Control-Allow-Origin': '*',
@@ -89,7 +90,8 @@ export default function Complex() {
           console.log('error')
           axios({
             method: 'post',
-            url: 'https://suhas-team-xueksbf2aa-el.a.run.app/complexlocal',
+            baseURL: 'https://suhas-team-xueksbf2aa-el.a.run.app/',
+            url: '/complexlocal',
             data: formData,
             headers: {"Access-Control-Allow-Origin": "*"}
           })
